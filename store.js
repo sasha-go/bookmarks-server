@@ -2,19 +2,19 @@ const uuid = require('uuid/v4')
 
 const bookmarks = [
   { id: uuid(),
-    title: 'Thinkful',
-    url: 'https://www.thinkful.com',
-    description: 'Think outside the classroom',
+    title: 'Strava',
+    url: 'https://www.strava.com',
+    description: 'Fitness App',
     rating: 5 },
   { id: uuid(),
-    title: 'Google',
-    url: 'https://www.google.com',
-    description: 'Where we find everything else',
+    title: 'Mint',
+    url: 'https://mint.intuit.com/',
+    description: 'Finance App',
     rating: 4 },
   { id: uuid(),
-    title: 'MDN',
-    url: 'https://developer.mozilla.org',
-    description: 'The only place to find web documentation',
+    title: 'The Atlantic',
+    url: 'https://www.theatlantic.com/',
+    description: 'News',
     rating: 5 },
 ]
 
